@@ -1,0 +1,1 @@
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp.UWP\XamarinNotesApp.UWP.csproj;x86

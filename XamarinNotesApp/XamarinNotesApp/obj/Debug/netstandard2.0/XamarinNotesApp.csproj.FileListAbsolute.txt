@@ -1,0 +1,12 @@
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\bin\Debug\netstandard2.0\XamarinNotesApp.deps.json
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\bin\Debug\netstandard2.0\XamarinNotesApp.dll
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\bin\Debug\netstandard2.0\XamarinNotesApp.pdb
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.csprojResolveAssemblyReference.cache
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.csproj.CoreCompileInputs.cache
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.App.xaml.g.cs
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.MainPage.xaml.g.cs
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.NewNotePage.xaml.g.cs
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.AssemblyInfoInputs.cache
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.AssemblyInfo.cs
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.dll
+C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\obj\Debug\netstandard2.0\XamarinNotesApp.pdb
