@@ -13,29 +13,57 @@ namespace XamarinNotesApp
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class NewNotePage : ContentPage
 	{
-		public NewNotePage ()
+        Note selectedNote;
+        public NewNotePage()
+        {
+            InitializeComponent();
+        }
+		public NewNotePage (Note selectedNote)
 		{
 			InitializeComponent ();
+
+            this.selectedNote = selectedNote;
+            titleEntry.Text = selectedNote.Title;
+            contentEditor.Text = selectedNote.Content;
 		}
 
         private void SaveToolbarItem_Clicked(object sender, EventArgs e)
         {
-            Note note = new Note()
+            if (selectedNote == null)
             {
-                Title = titleEntry.Text,
-                Content = contentEditor.Text
-            };
+                Note note = new Note()
+                {
+                    Title = titleEntry.Text,
+                    Content = contentEditor.Text
+                };
 
-            //! added using SQLite;
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabasePath))
+                //! added using SQLite;
+                using (SQLiteConnection conn = new SQLiteConnection(App.DatabasePath))
+                {
+                    conn.CreateTable<Note>();
+                    int itemsInserted = conn.Insert(note);
+
+                    if (itemsInserted > 0)
+                        DisplayAlert("Done", "Note saved", "Ok");
+                    else
+                        DisplayAlert("Error", "Note not saved", "Ok");
+                }
+            }
+            else
             {
-                conn.CreateTable<Note>();
-                int itemsInserted = conn.Insert(note);
+                selectedNote.Title = titleEntry.Text;
+                selectedNote.Content = contentEditor.Text;
 
-                if (itemsInserted > 0)
-                    DisplayAlert("Done", "Note saved", "Ok");
-                else
-                    DisplayAlert("Error", "Note not saved", "Ok");
+                using (SQLiteConnection conn = new SQLiteConnection(App.DatabasePath))
+                {
+                    conn.CreateTable<Note>();
+                    int itemsUpdated = conn.Insert(selectedNote);
+
+                    if (itemsUpdated > 0)
+                        DisplayAlert("Done", "Note updated", "Ok");
+                    else
+                        DisplayAlert("Error", "Note not updated", "Ok");
+                }
             }
         }
     }

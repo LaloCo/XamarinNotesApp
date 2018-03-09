@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-02T17:35:41.018</Modified>
+      <Modified>2018-03-08T23:05:46.175</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp.UWP\bin\x86\Debug\XamarinNotesApp.UWP.exe">
       <PackagePath>entrypoint\XamarinNotesApp.UWP.exe</PackagePath>
-      <Modified>2018-03-02T17:35:36.316</Modified>
+      <Modified>2018-03-08T23:05:43.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lalor\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -737,7 +737,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp\bin\Debug\netstandard2.0\XamarinNotesApp.dll">
       <PackagePath>XamarinNotesApp.dll</PackagePath>
-      <Modified>2018-03-02T16:58:10.258</Modified>
+      <Modified>2018-03-08T23:05:23.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -908,11 +908,11 @@
     <AppxPackagedFile Include="C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-02T17:35:39.681</Modified>
+      <Modified>2018-03-08T23:05:45.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lalor\source\repos\XamarinNotesApp\XamarinNotesApp\XamarinNotesApp.UWP\bin\x86\Debug\Core\XamarinNotesApp.UWP.exe">
       <PackagePath>XamarinNotesApp.UWP.exe</PackagePath>
-      <Modified>2018-03-02T17:35:40.999</Modified>
+      <Modified>2018-03-08T23:05:46.149</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
